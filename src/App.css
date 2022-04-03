@@ -2,37 +2,116 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
+
+.App-header{
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 100px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 50px;
+  gap:20px;
   color: white;
 }
+.button1{
+  background-color:rgba(255, 255, 0, 0.856);
+  font-size: 30px;
+}
+.button2{
+  background-color:rgba(255, 255, 0, 0.836);
+  font-size: 30px;
+}
+.button3{
+  background-color:rgba(255, 255, 0, 0.836);
+  font-size: 30px;
+}
+.cart{
+  align-items: left;
+  display: flex;
+  text-align:left;
+  margin-left: 1000px;
+  height: 50px;
+  font-size: 20px;
+  background-color:lawngreen;
+}
+.header1{
+  height: 200px;
+  background-color: black;
+  color:rgb(144, 226, 12);
+  margin-top: 0px;
+  text-align: bottom;
+  margin-bottom: 0px;
+  justify-items: center;
+  padding: 200px;
+  font-size: 40px;
+  border-top:2px solid red;
 
-.App-link {
-  color: #61dafb;
+}
+.product-container {
+  background-color: whitesmoke;
+  width: 800px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: rgb(0 0 0 / 24%) 1px 2px 13px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  
+}
+.product-picture {
+  height: 400px;
+  width: 500px;
+  object-fit: contain;
+  margin:200px;
+  padding: 0px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.product-name {
+  padding: 36px;
+  font-size: 30px;
+  margin-bottom: 0px;
+ color:rgba(17, 17, 206, 0.959)
+
+  /* font-weight: bold; */
 }
+
+.product-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin: 24px;
+  padding: 30px;
+}
+
+.add{
+  width: 300px;
+  align-items:center ;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 0px;
+  background-color: darkorange;
+  font-size: 40px;
+  margin:150px;
+}
+.price{
+  font-size: 60px;
+  
+}
+.rating{
+  background-color: green;
+  font-size: 40px;
+  width: 400px;
+  gap:10px;
+  margin: 40px;
+  padding: 10px;
+}
+
+ body {
+  margin: 0;
+  padding: 0;
+  height:1000px;
+ }
